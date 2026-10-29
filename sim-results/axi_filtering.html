@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' type='text/css' href='main.css'>
+    <link rel='stylesheet' type='text/css' href='cov.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testplan simulation results</title>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <nav class="navbar">
+                <div class="nav-left">
+                    
+                    <div class="nav-urls">
+                        <a href="./index-blocks.html" class="button tooltip">
+                            <img src="assets/caret.svg" alt="Back" style="transform: scale(-2) translatey(-1px);" />
+                            <span class="tooltip-text tooltip-text-right">Go Back</span>
+                        </a>
+                    </div>
+                    
+
+                    <span class="container-title">
+                        axi_filtering
+                    </span>
+
+                    
+
+                    
+                    <div class="nav-urls">
+                        <a href="https://github.com/jinalhpatel/i3c-core/tree/main//verification/testplan/block/axi_filtering.hjson" class="button tooltip">
+                            <img src="assets/code.svg" alt="Source" style="transform: scale(1.25) translatey(1px);"/>
+                            <span class="tooltip-text tooltip-text-right">Go to testplan source</span>
+                        </a>
+                    </div>
+                    
+
+                </div>
+                
+                <div class="nav-right">
+                    
+                    <div class="nav-item">
+                        <img src="./assets/date.svg" alt="Run on"/>
+                        29/10/2026 02:52
+                    </div>
+                    
+                    
+                    <div class="nav-item">
+                        <img src="./assets/repo.svg" alt="Run on"/>
+                        <a target="_blank" href="https://github.com/jinalhpatel/i3c-core">i3c-core</a>
+                    </div>
+                    
+                    
+                    <div class="nav-item">
+                        <img src="./assets/branch.svg" alt="Run on"/>
+                        <a target="_blank" href="https://github.com/jinalhpatel/i3c-core/tree/main">main</a>
+                    </div>
+                    
+                    
+                    <div class="nav-item">
+                        <img src="./assets/commit.svg" alt="Run on"/>
+                        <a target="_blank" href="https://github.com/jinalhpatel/i3c-core/commit/e33a8bbc">e33a8bbc</a>
+                    </div>
+                    
+                </div>
+                
+            </nav>
+        </header>
+        <center class='results'>
+        <div class="page-wrapper">
+            <div class="test-results">
+                <div class="table-wrapper">
+                    
+<h3> Test Results
+ </h3><table>
+<thead>
+<tr><th style="text-align: center;">                           Name                            </th><th>Tests                                                                                                                                                                                   </th><th style="text-align: center;"> Max Job Runtime </th><th style="text-align: center;"> Simulated Time </th><th style="text-align: center;"> Passing </th><th style="text-align: center;"> Total </th><th style="text-align: center;">                Pass Rate                </th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: center;">                              <span title='Verifies CSR access is granted when the AXI filtering feature is disabled.
+Verifies transaction response and contents.'>axi_filtering_disabled<span>                              </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>read_hci_version_csr_id_filter_off</a>                </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>read_pio_section_offset_filter_off</a>                </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>write_to_controller_device_addr_filter_off</a>        </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>write_should_not_affect_ro_csr_filter_off</a>         </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>sequence_csr_read_filter_off</a>                      </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>sequence_csr_write_filter_off</a>                     </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_write_id_filter_off</a>                    </td><td style="text-align: center;">      0.042      </td><td style="text-align: center;">    352.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_read_id_filter_off</a>                     </td><td style="text-align: center;">      0.065      </td><td style="text-align: center;">    712.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>write_read_burst_id_filter_off</a>                        </td><td style="text-align: center;">      0.021      </td><td style="text-align: center;">    320.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>write_burst_collision_with_read_id_filter_off</a>         </td><td style="text-align: center;">      0.041      </td><td style="text-align: center;">    698.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>read_burst_collision_with_write_id_filter_off</a>         </td><td style="text-align: center;">      0.030      </td><td style="text-align: center;">    458.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                              <span title='Verifies CSR access is granted when the AXI filtering is enabled
+and the transaction has a privileged ID.
+Verifies transaction response and contents.'>axi_filtering_priv<span>                              </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>read_hci_version_csr_id_filter_on_priv</a>            </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>read_pio_section_offset_filter_on_priv</a>            </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>write_to_controller_device_addr_filter_on_priv</a>    </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>write_should_not_affect_ro_csr_filter_on_priv</a>     </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>sequence_csr_read_filter_on_priv</a>                  </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>sequence_csr_write_filter_on_priv</a>                 </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_write_id_filter_on_priv</a>                </td><td style="text-align: center;">      0.083      </td><td style="text-align: center;">    674.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_read_id_filter_on_priv</a>                 </td><td style="text-align: center;">      0.080      </td><td style="text-align: center;">    856.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>write_read_burst_id_filter_on_priv</a>                    </td><td style="text-align: center;">      0.033      </td><td style="text-align: center;">    548.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>write_burst_collision_with_read_id_filter_on_priv</a>     </td><td style="text-align: center;">      0.026      </td><td style="text-align: center;">    410.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>read_burst_collision_with_write_id_filter_on_priv</a>     </td><td style="text-align: center;">      0.092      </td><td style="text-align: center;">    1610.000    </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                              <span title='Verifies CSR access is denied when the AXI filtering feature is enabled
+and the transaction ID doesn't match any of the privileged IDs.'>axi_filtering_non_priv<span>                              </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>read_hci_version_csr_id_filter_on_non_priv</a>        </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>read_pio_section_offset_filter_on_non_priv</a>        </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>write_to_controller_device_addr_filter_on_non_priv</a></td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>write_should_not_affect_ro_csr_filter_on_non_priv</a> </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>sequence_csr_read_filter_on_non_priv</a>              </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_seq_csr_access.py>sequence_csr_write_filter_on_non_priv</a>             </td><td style="text-align: center;">        0        </td><td style="text-align: center;">       0        </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #ef4444">0.0%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_write_id_filter_on_non_priv</a>            </td><td style="text-align: center;">      0.023      </td><td style="text-align: center;">    202.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_read_id_filter_on_non_priv</a>             </td><td style="text-align: center;">      0.027      </td><td style="text-align: center;">    278.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>write_read_burst_id_filter_on_non_priv</a>                </td><td style="text-align: center;">      0.018      </td><td style="text-align: center;">    264.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>write_burst_collision_with_read_id_filter_on_non_priv</a> </td><td style="text-align: center;">      0.027      </td><td style="text-align: center;">    434.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>read_burst_collision_with_write_id_filter_on_non_priv</a> </td><td style="text-align: center;">      0.042      </td><td style="text-align: center;">    682.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                              <span title='Issues an ID-randomized colliding read and write transactions sequence.
+Verifies AXI CSR access response for each separate transaction.
+Ensures that access errors are raised only for unprivileged transactions.'>axi_filtering_mixed_priv<span>                              </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_write_id_filter_on_mixed</a>               </td><td style="text-align: center;">      0.035      </td><td style="text-align: center;">    346.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_read_id_filter_on_mixed</a>                </td><td style="text-align: center;">      0.039      </td><td style="text-align: center;">    424.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_write_mixed_priv</a>                       </td><td style="text-align: center;">      0.081      </td><td style="text-align: center;">    964.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_bus_stress.py>collision_with_read_mixed_priv</a>                        </td><td style="text-align: center;">      0.085      </td><td style="text-align: center;">    1052.000    </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;"><span title='TODO: add proper description'>bus_stress<span></td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter/test_bus_stress.py>collision_with_read</a>                                             </td><td style="text-align: center;">      0.039      </td><td style="text-align: center;">    694.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter/test_bus_stress.py>collision_with_write</a>                                            </td><td style="text-align: center;">      0.032      </td><td style="text-align: center;">    480.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter/test_bus_stress.py>write_read_burst</a>                                                </td><td style="text-align: center;">      0.028      </td><td style="text-align: center;">    848.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter/test_bus_stress.py>read_burst_collision_with_write</a>                                 </td><td style="text-align: center;">      0.021      </td><td style="text-align: center;">    554.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter/test_bus_stress.py>write_burst_collision_with_read</a>                                 </td><td style="text-align: center;">      0.010      </td><td style="text-align: center;">    230.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;"> <span title='TODO: add proper description'>priv_id<span>  </td><td><a href=https://github.com/jinalhpatel/i3c-core/tree/main//verification/cocotb/block/axi_adapter_id_filter/test_priv_id_variation.py>priv_id_variation</a>                              </td><td style="text-align: center;">      0.028      </td><td style="text-align: center;">    302.000     </td><td style="text-align: center;">    1    </td><td style="text-align: center;">   1   </td><td style="text-align: center;"><span style="color: #22c55e">100%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td>randomized_id_configuration_swap                                                                                                                                                        </td><td style="text-align: center;">                 </td><td style="text-align: center;">                </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   0   </td><td style="text-align: center;"> <span style="color: #737373">--%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td>swap_priv_ids_mid_read                                                                                                                                                                  </td><td style="text-align: center;">                 </td><td style="text-align: center;">                </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   0   </td><td style="text-align: center;"> <span style="color: #737373">--%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td>swap_priv_ids_mid_write                                                                                                                                                                 </td><td style="text-align: center;">                 </td><td style="text-align: center;">                </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   0   </td><td style="text-align: center;"> <span style="color: #737373">--%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td>toggle_filtering_mid_read                                                                                                                                                               </td><td style="text-align: center;">                 </td><td style="text-align: center;">                </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   0   </td><td style="text-align: center;"> <span style="color: #737373">--%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td>toggle_filtering_mid_write                                                                                                                                                              </td><td style="text-align: center;">                 </td><td style="text-align: center;">                </td><td style="text-align: center;">    0    </td><td style="text-align: center;">   0   </td><td style="text-align: center;"> <span style="color: #737373">--%</span> </td></tr>
+<tr><td style="text-align: center;">                                                           </td><td><b>TOTAL</b>                                                                                                                                                                            </td><td style="text-align: center;">                 </td><td style="text-align: center;">                </td><td style="text-align: center;">   25    </td><td style="text-align: center;">  43   </td><td style="text-align: center;"><span style="color: #f97316">58.1%</span></td></tr>
+</tbody>
+</table>
+
+                </div>
+            </div>
+            <div class="progress-table">
+                <div class="table-wrapper">
+                    
+<h3> Testplan Progress
+ </h3><table>
+<thead>
+<tr><th style="text-align: center;"> Implemented tests </th><th style="text-align: center;"> Planned tests </th><th style="text-align: center;">         Implementation progress         </th><th style="text-align: center;"> Passing runs </th><th style="text-align: center;"> Total runs </th><th style="text-align: center;">                Pass rate                </th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: center;">        43         </td><td style="text-align: center;">      48       </td><td style="text-align: center;"><span style="color: #22c55e">89.6%</span></td><td style="text-align: center;">      25      </td><td style="text-align: center;">     43     </td><td style="text-align: center;"><span style="color: #f97316">58.1%</span></td></tr>
+</tbody>
+</table>
+
+                </div>
+            </div>
+        </div>
+        </center>
+    </div>
+    <footer>
+    </footer>
+</body>
+
+<script>
+const header = document.querySelector('header');
+const colHeaders = document.querySelectorAll("th");
+const tableWrapper = document.querySelector('.table-wrapper');
+
+function updateOffsets() {
+    const headerHeight = header.offsetHeight + "px";
+    tableWrapper.style.marginTop = headerHeight;
+    colHeaders.forEach((col) => {
+        col.style.top = headerHeight;
+    })
+}
+
+window.addEventListener('resize', updateOffsets, {passive: true});
+window.addEventListener('load', updateOffsets, {passive: true});
+</script>
+
+</html>
